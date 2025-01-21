@@ -1,0 +1,25 @@
+# Funções de organização 
+
+sobrenome = input('Sobrenome ')
+nome = input(' Nome')
+titulo = input(' Nome da materia')
+nome_jornal = input(' Nome do jornal')
+cidade_publicação = input(' Cidade de publicação')
+data_materia = input('data')
+secao = input('Seção (Se houver)')
+url = input('url')
+acesso_em = input('Data de acesso')
+saida_padrao = print(f"{titulo}, {nome_jornal}, {cidade_publicação}, {data_materia}, {secao}. Disponível em: <{url}>. Acesso em: {acesso_em}") #Se houver sobrenome, puxa titulo
+saida_titulo = print(f"{sobrenome}, {nome}, {titulo}, {nome_jornal}, {cidade_publicação}, {data_materia}, {secao}, Disponível em: {url} Acesso em: {acesso_em}") # Se não, inicia pelo sobrenome
+
+
+#Funções visuais
+
+#Função pratica
+
+#saida:
+if sobrenome == '':  
+    saida_padrao
+else: 
+    titulo
+    
